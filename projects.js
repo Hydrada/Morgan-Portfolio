@@ -69,6 +69,17 @@ window.PORTFOLIO_PROJECTS = [
     links: [{ label: "Feature walkthrough", href: "https://www.hydrantloop.com/#features" }]
   },
   {
+    title: "Hydrant Flushing Program Workbook",
+    slug: "hydrant-flushing-program-workbook",
+    category: "Spreadsheet Tools",
+    summary:
+      "A macro-enabled Excel workbook for organizing hydrant flushing program work, preserving field entries, supporting location updates, and keeping operational review in a familiar spreadsheet format.",
+    status: "Field test workbook",
+    stack: ["Excel", "VBA", "Field operations"],
+    source: "",
+    links: []
+  },
+  {
     title: "Hydra Hytale Mods",
     slug: "hydra-hytale-mods",
     category: "Mods",

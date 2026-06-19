@@ -1,8 +1,8 @@
 # Morgan Nichols Portfolio
 
-Static portfolio site seeded from HydrantLoop's public site, safe public-facing summaries of local project work, and sanitized mod summaries.
+Static portfolio site seeded from HydrantLoop's public site, safe public-facing summaries of local project work, sanitized mod summaries, and a public-safe workbook case study.
 
-This repository is intended to be public. Do not commit HydrantLoop app source code, mod package archives, mod source folders, testing app URLs, tester data, NDA material, credentials, private SOPs, internal calculations, or local machine paths.
+This repository is intended to be public. Do not commit HydrantLoop app source code, Excel workbooks, mod package archives, mod source folders, testing app URLs, tester data, NDA material, credentials, private SOPs, internal calculations, or local machine paths.
 
 ## Open it
 
