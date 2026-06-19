@@ -5,6 +5,7 @@ This repository is for public portfolio presentation only.
 Do not commit:
 
 - HydrantLoop app source code
+- Mod source folders, packaged zip files, or unpublished release artifacts
 - Testing app URLs or tester access details
 - NDA material
 - Credentials, API keys, secrets, or `.env` files

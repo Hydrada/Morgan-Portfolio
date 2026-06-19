@@ -69,6 +69,117 @@ window.PORTFOLIO_PROJECTS = [
     links: [{ label: "Feature walkthrough", href: "https://www.hydrantloop.com/#features" }]
   },
   {
+    title: "Hydra Hytale Mods",
+    slug: "hydra-hytale-mods",
+    category: "Mods",
+    summary:
+      "A CurseForge-ready Hytale mod collection built around storm-themed gear, progression, boss encounters, utility validation, and smoother gameplay experiments.",
+    status: "Packaged for release",
+    stack: ["Hytale", "CurseForge-ready", "Game design"],
+    source: "",
+    featured: true,
+    links: []
+  },
+  {
+    title: "Hydra ThunderBow",
+    slug: "hydra-thunderbow",
+    category: "Mods",
+    summary:
+      "A storm-inspired ranged weapon mod that gives players a lightning-themed bow option for distance combat and fits into the broader Hydra storm collection.",
+    status: "Packaged",
+    stack: ["Hytale", "Weapon mod", "Storm theme"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra StormHammer",
+    slug: "hydra-stormhammer",
+    category: "Mods",
+    summary:
+      "A lightning-themed hammer weapon focused on heavy, direct combat and designed to pair naturally with the Hydra storm armor and expansion mods.",
+    status: "Packaged",
+    stack: ["Hytale", "Weapon mod", "Combat design"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra StormArmor",
+    slug: "hydra-stormarmor",
+    category: "Mods",
+    summary:
+      "A storm-inspired armor set that gives players a stronger elemental identity and supports the wider lightning-powered Hydra mod style.",
+    status: "Packaged",
+    stack: ["Hytale", "Armor mod", "Player identity"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra StormBosses",
+    slug: "hydra-stormbosses",
+    category: "Mods",
+    summary:
+      "Boss-focused storm content for tougher encounters, stronger enemies, themed fights, and more memorable progression goals.",
+    status: "Packaged",
+    stack: ["Hytale", "Boss encounters", "Progression"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra StormExpansion",
+    slug: "hydra-stormexpansion",
+    category: "Mods",
+    summary:
+      "An expansion layer for the Hydra storm collection, adding more themed gameplay content for players who want broader progression and variety.",
+    status: "Packaged",
+    stack: ["Hytale", "Expansion", "Gameplay content"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra StormUpgrades",
+    slug: "hydra-stormupgrades",
+    category: "Mods",
+    summary:
+      "Upgrade-focused storm content that supports stronger progression paths and gives players a clearer sense of advancement across the mod set.",
+    status: "Packaged",
+    stack: ["Hytale", "Upgrades", "Progression"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra StormPack",
+    slug: "hydra-stormpack",
+    category: "Mods",
+    summary:
+      "A bundled storm-themed content pack that brings the Hydra style together in one easier-to-install package for installation, validation, and server setup.",
+    status: "Packaged",
+    stack: ["Hytale", "Content pack", "Server setup"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra InfiniteStamina",
+    slug: "hydra-infinitestamina",
+    category: "Mods",
+    summary:
+      "A lightweight gameplay mod that removes stamina downtime for smoother exploration, creative play, combat validation, and faster server movement.",
+    status: "Packaged",
+    stack: ["Hytale", "Gameplay utility", "Movement"],
+    source: "",
+    links: []
+  },
+  {
+    title: "Hydra TestDrops",
+    slug: "hydra-testdrops",
+    category: "Mods",
+    summary:
+      "A small utility-style mod for predictable drop behavior during development, loot validation, packaging checks, and server review.",
+    status: "Packaged",
+    stack: ["Hytale", "Utility mod", "Loot testing"],
+    source: "",
+    links: []
+  },
+  {
     title: "Local AI Model Setup",
     slug: "local-ai-model-setup",
     category: "AI",

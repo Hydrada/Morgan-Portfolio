@@ -33,7 +33,7 @@ Confirm the repo contains only:
 - Sanitized project summaries
 - Public safety documentation
 
-Do not add HydrantLoop app code, testing app URLs, private notes, tester details, exports, credentials, or local source folders.
+Do not add HydrantLoop app code, mod source folders, packaged mod zip files, testing app URLs, private notes, tester details, exports, credentials, or local source folders.
 
 ## Push after creating the GitHub repo
 
