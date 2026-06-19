@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+
+# Keep private app code, exports, and notes out of the public portfolio repo.
+private/
+testing/
+tester-data/
+exports/
+screenshots/private/
+*.key
+*.pem

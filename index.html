@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Morgan Nichols | HydrantLoop Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for Morgan Nichols, creator of HydrantLoop and builder of practical field software, local AI tooling, and knowledge systems."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Morgan Nichols portfolio home">
+        <img src="assets/brand-mark.svg" alt="" width="36" height="36" />
+        <span>Morgan Nichols</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio / Field Software / Practical Systems</p>
+          <h1 id="hero-title">Building useful tools from real field problems.</h1>
+          <p>
+            I build mobile-first field software, local AI workflows, knowledge
+            systems, and supporting infrastructure. HydrantLoop is the flagship:
+            a water distribution field companion for calculators, documentation,
+            reference material, and organized field records.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button secondary" href="mailto:morgan@hydrantloop.com">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="screen">
+            <div class="screen-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="code-lines">
+              <i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="system-card card-a">
+            <strong>HydrantLoop</strong>
+            <span>field calculators / logs / reference</span>
+          </div>
+          <div class="system-card card-b">
+            <strong>Local Systems</strong>
+            <span>AI / knowledge base / server tooling</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-label="Portfolio summary">
+        <div>
+          <span class="metric" id="project-count">0</span>
+          <p>projects seeded from public and local sources</p>
+        </div>
+        <div>
+          <span class="metric">Public</span>
+            <p>HydrantLoop links only to public-facing pages</p>
+        </div>
+        <div>
+          <span class="metric">Editable</span>
+          <p>project cards live in projects.js for quick updates</p>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+
+        <div class="toolbar" aria-label="Project filters">
+          <button class="filter active" data-filter="all" type="button">All</button>
+          <button class="filter" data-filter="Field Software" type="button">Field Software</button>
+          <button class="filter" data-filter="AI" type="button">AI</button>
+          <button class="filter" data-filter="Knowledge" type="button">Knowledge</button>
+          <button class="filter" data-filter="Infrastructure" type="button">Infrastructure</button>
+        </div>
+
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="section process" id="process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <p class="eyebrow">Working Style</p>
+          <h2 id="process-title">How the work comes together</h2>
+        </div>
+        <div class="process-grid">
+          <article>
+            <span>01</span>
+            <h3>Start from field reality</h3>
+            <p>Build around practical workflows, real constraints, and tools people can use on site.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Make the system usable</h3>
+            <p>Turn calculations, documentation, references, and handoffs into clear interfaces.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Test before widening access</h3>
+            <p>Share outcomes and public product thinking without exposing private app internals.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Use a domain email for serious project conversations.</h2>
+          <p>
+            A HydrantLoop domain email looks more professional than a generic
+            personal inbox. Use it for partner conversations, portfolio inquiries,
+            and serious project follow-up once the mailbox is configured.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:morgan@hydrantloop.com">morgan@hydrantloop.com</a>
+      </section>
+    </main>
+
+    <footer>
+      <span>Morgan Nichols Portfolio</span>
+      <span>Built as a static site</span>
+    </footer>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
