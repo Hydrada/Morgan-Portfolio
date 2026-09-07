@@ -124,20 +124,6 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
-    title: "Project Forge",
-    slug: "project-forge",
-    category: "Infrastructure",
-    summary:
-      "Offline single-player trainer shell in .NET 8/WPF with a modular SDK. Public sample uses a fake mock game only — no anti-cheat bypass or multiplayer cheats.",
-    status: "Public portfolio sample",
-    stack: [".NET 8", "WPF", "Modular SDK", "xUnit"],
-    source: "https://github.com/Hydrada/Project-Forge-Public",
-    featured: true,
-    links: [
-      { label: "GitHub", href: "https://github.com/Hydrada/Project-Forge-Public" }
-    ]
-  },
-  {
     title: "Mosaic Files",
     slug: "mosaic-files",
     category: "Infrastructure",
@@ -181,7 +167,7 @@ window.PORTFOLIO_PROJECTS = [
     summary:
       "A lightning-themed hammer weapon focused on heavy, direct combat and designed to pair naturally with the Hydra storm armor and expansion mods.",
     status: "Packaged",
-    stack: ["Hytale", "Armor mod", "Player identity"],
+    stack: ["Hytale", "Weapon mod", "Combat design"],
     source: "",
     links: []
   },
