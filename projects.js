@@ -96,6 +96,20 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
+    title: "Project Forge",
+    slug: "project-forge",
+    category: "Infrastructure",
+    summary:
+      "Offline single-player trainer shell in .NET 8/WPF with a modular SDK. Public sample uses a fake mock game only — no anti-cheat bypass or multiplayer cheats.",
+    status: "Public portfolio sample",
+    stack: [".NET 8", "WPF", "Modular SDK", "xUnit"],
+    source: "https://github.com/Hydrada/Project-Forge-Public",
+    featured: true,
+    links: [
+      { label: "GitHub", href: "https://github.com/Hydrada/Project-Forge-Public" }
+    ]
+  },
+  {
     title: "Hydra Hytale Mods",
     slug: "hydra-hytale-mods",
     category: "Mods",
