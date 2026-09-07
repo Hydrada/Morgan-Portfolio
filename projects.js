@@ -88,10 +88,12 @@ window.PORTFOLIO_PROJECTS = [
     category: "Spreadsheet Tools",
     summary:
       "A macro-enabled Excel workbook for organizing hydrant flushing program work, preserving field entries, supporting location updates, and keeping operational review in a familiar spreadsheet format.",
-    status: "Field test workbook",
+    status: "Public demo template",
     stack: ["Excel", "VBA", "Field operations"],
-    source: "",
-    links: []
+    source: "https://github.com/Hydrada/Hydrant-Flushing-Workbook",
+    links: [
+      { label: "GitHub", href: "https://github.com/Hydrada/Hydrant-Flushing-Workbook" }
+    ]
   },
   {
     title: "Hydra Hytale Mods",
