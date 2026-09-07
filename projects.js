@@ -14,6 +14,20 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
+    title: "UtiliVault",
+    slug: "utilivault",
+    category: "Field Software",
+    summary:
+      "Field automation for municipal water utilities: Google Drive intake, OCR/vision-assisted tie-card creation, registry lookup, and printable/digital card pipelines. Public portfolio snapshot with credentials and live customer data removed.",
+    status: "Public portfolio repo",
+    stack: ["Python", "Flask", "Google Drive API", "OCR", "Automation"],
+    source: "https://github.com/Hydrada/UtiliVault-Public",
+    featured: true,
+    links: [
+      { label: "GitHub", href: "https://github.com/Hydrada/UtiliVault-Public" }
+    ]
+  },
+  {
     title: "HydrantLoop Field Calculators",
     slug: "hydrantloop-field-calculators",
     category: "Field Software",
