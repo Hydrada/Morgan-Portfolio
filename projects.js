@@ -14,6 +14,20 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
+    title: "Hadalyx",
+    slug: "hadalyx",
+    category: "AI",
+    summary:
+      "One-time-purchase local AI for Windows 11 + NVIDIA RTX: private chat, image (Flux/SDXL), and video on your GPU. Bundles from Core to Video with guided installer — no monthly subscription.",
+    status: "Public product",
+    stack: ["Local AI", "Windows desktop", "NVIDIA GPU", "Installer"],
+    source: "https://hadalyx.com",
+    featured: true,
+    links: [
+      { label: "Product site", href: "https://hadalyx.com" }
+    ]
+  },
+  {
     title: "UtiliVault",
     slug: "utilivault",
     category: "Field Software",
@@ -153,7 +167,7 @@ window.PORTFOLIO_PROJECTS = [
     summary:
       "A lightning-themed hammer weapon focused on heavy, direct combat and designed to pair naturally with the Hydra storm armor and expansion mods.",
     status: "Packaged",
-    stack: ["Hytale", "Weapon mod", "Combat design"],
+    stack: ["Hytale", "Armor mod", "Player identity"],
     source: "",
     links: []
   },
