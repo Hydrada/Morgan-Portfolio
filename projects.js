@@ -110,6 +110,20 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
+    title: "Mosaic Files",
+    slug: "mosaic-files",
+    category: "Infrastructure",
+    summary:
+      ".NET 8 / WinUI 3 Windows file manager with fast search (Everything IPC), WSL and Docker browsing, shell icons/thumbnails, and unit tests. Public portfolio snapshot.",
+    status: "Public portfolio repo",
+    stack: [".NET 8", "WinUI 3", "Windows App SDK", "xUnit"],
+    source: "https://github.com/Hydrada/Mosaic-Files",
+    featured: true,
+    links: [
+      { label: "GitHub", href: "https://github.com/Hydrada/Mosaic-Files" }
+    ]
+  },
+  {
     title: "Hydra Hytale Mods",
     slug: "hydra-hytale-mods",
     category: "Mods",
