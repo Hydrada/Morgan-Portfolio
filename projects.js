@@ -28,6 +28,20 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
+    title: "Hydra Video Harness",
+    slug: "hydra-video-harness",
+    category: "AI",
+    summary:
+      "Sanitized portfolio snapshot of an Electron desktop app and Jetpack Compose Android companion for AI video job queues through ComfyUI, with cancellation, history, live progress, and an authenticated localhost gateway.",
+    status: "Public portfolio repo",
+    stack: ["Electron", "Node.js", "ComfyUI", "WebSocket", "Jetpack Compose"],
+    source: "https://github.com/Hydrada/Hydra-Video-Harness",
+    featured: true,
+    links: [
+      { label: "GitHub", href: "https://github.com/Hydrada/Hydra-Video-Harness" }
+    ]
+  },
+  {
     title: "UtiliVault",
     slug: "utilivault",
     category: "Field Software",
